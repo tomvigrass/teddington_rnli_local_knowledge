@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Local Knowledge Exam",
+    "slug": "local-knowledge-exam",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#003087"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.teddington.localknowledge",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#003087"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.teddington.localknowledge",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "b33dbbbe-f294-4b62-bed3-e2c0886dcfcb"
+      }
+    },
+    "owner": "tomvigrass"
+  }
+}

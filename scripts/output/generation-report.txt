@@ -1,0 +1,177 @@
+=== Question Generation Report ===
+Generated: 2026-02-08T17:25:40.286Z
+
+Existing questions: 121
+New questions generated: 935
+Validation errors: 0
+Total after merge: 1056
+
+=== Per-Category Breakdown ===
+bridges: 48 total (14 existing, 24 new image, 10 new text)
+environmentAgencyWarnings: 4 total (4 existing, 0 new image, 0 new text)
+establishments: 308 total (18 existing, 243 new image, 47 new text)
+evacuationPoints: 135 total (22 existing, 95 new image, 18 new text)
+hazards: 4 total (4 existing, 0 new image, 0 new text)
+islands: 142 total (20 existing, 119 new image, 3 new text)
+plaWarnings: 6 total (6 existing, 0 new image, 0 new text)
+pointsOfInterest: 366 total (18 existing, 301 new image, 47 new text)
+richmondLock: 21 total (9 existing, 11 new image, 1 new text)
+teddingtonLock: 22 total (6 existing, 15 new image, 1 new text)
+
+=== Per-Location Coverage ===
+Eel Pie Island Footbridge: 3 images total, 1 already used, 2 new questions
+Hampton Court Bridge: 4 images total, 1 already used, 3 new questions
+Kingston Bridge: 3 images total, 1 already used, 2 new questions
+Kingston Rail Bridge: 3 images total, 1 already used, 2 new questions
+Richmond Bridge: 3 images total, 1 already used, 2 new questions
+Richmond Lock Footbridge: 3 images total, 1 already used, 2 new questions
+Teddington Lock Footbridge: 3 images total, 1 already used, 2 new questions
+Teddington Lock Suspension Bridge: 3 images total, 0 already used, 3 new questions
+Thames Ditton Island Footbridge: 3 images total, 1 already used, 2 new questions
+Twickenham Rail Bridge: 3 images total, 1 already used, 2 new questions
+Twickenham Road Bridge: 3 images total, 1 already used, 2 new questions
+Albany Park Canoe & Sailing Centre: 5 images total, 0 already used, 5 new questions
+Thames Ditton Island Footbridge Evacuation Point: 5 images total, 0 already used, 5 new questions
+Ditton Reach Slip, Thames Ditton: 8 images total, 0 already used, 8 new questions
+East Molesey Wharf: 7 images total, 0 already used, 7 new questions
+Hampton Court Landing Stage: 5 images total, 0 already used, 5 new questions
+Kingston Sea Cadets, Thames Side: 4 images total, 0 already used, 4 new questions
+Slip between LRYC & TSC, Surbiton: 8 images total, 0 already used, 8 new questions
+Steps on Barge Walk, Kingston: 5 images total, 0 already used, 5 new questions
+Teddington Lock Evacuation Point: 4 images total, 0 already used, 4 new questions
+Town End Pier, Kingston: 5 images total, 0 already used, 5 new questions
+Eel Pie Footbridge Evacuation Point: 4 images total, 0 already used, 4 new questions
+Ham House Car Park: 5 images total, 0 already used, 5 new questions
+Lifeboat Station: 3 images total, 0 already used, 3 new questions
+London Apprentice Slipway, Isleworth: 4 images total, 0 already used, 4 new questions
+Richmond Bridge Slip: 4 images total, 0 already used, 4 new questions
+Richmond Canoe Club: 5 images total, 0 already used, 5 new questions
+River Lane, Petersham: 5 images total, 0 already used, 5 new questions
+White Cross Hotel Slip: 4 images total, 0 already used, 4 new questions
+White Swan Beach, Twickenham: 5 images total, 0 already used, 5 new questions
+Ash Island: 4 images total, 1 already used, 3 new questions
+Boyle Farm Island: 9 images total, 1 already used, 8 new questions
+Corporation Island: 8 images total, 1 already used, 7 new questions
+Eel Pie Island: 23 images total, 1 already used, 22 new questions
+Glover’s Island: 9 images total, 1 already used, 8 new questions
+Isleworth Ait: 9 images total, 1 already used, 8 new questions
+Raven’s Ait: 11 images total, 1 already used, 10 new questions
+Steven’s Eyot: 10 images total, 1 already used, 9 new questions
+Swan Island EP: 5 images total, 1 already used, 4 new questions
+Swan Island TD: 6 images total, 0 already used, 6 new questions
+Teddington Lock Island: 11 images total, 1 already used, 10 new questions
+Thames Ditton Island: 6 images total, 1 already used, 5 new questions
+The Flower Pots: 6 images total, 1 already used, 5 new questions
+The Tea Pots: 7 images total, 1 already used, 6 new questions
+Trowlock Island: 9 images total, 1 already used, 8 new questions
+Molesey Lock and Weir: 15 images total, 0 already used, 15 new questions
+Richmond Lock and Weir: 11 images total, 0 already used, 11 new questions
+Teddington Lock: 15 images total, 0 already used, 15 new questions
+Bill’s, Kingston: 5 images total, 0 already used, 5 new questions
+Brown’s, Kingston: 7 images total, 0 already used, 7 new questions
+Canbury Secret Cafe, Kingston: 5 images total, 0 already used, 5 new questions
+Chakra, Kingston: 4 images total, 0 already used, 4 new questions
+Gaucho, Richmond: 6 images total, 0 already used, 6 new questions
+Ginger Bee's Cafe, Surbiton: 5 images total, 0 already used, 5 new questions
+Harts Boatyard, Surbiton: 5 images total, 1 already used, 4 new questions
+Pitcher & Piano, Richmond: 4 images total, 0 already used, 4 new questions
+Stein’s, Kingston: 3 images total, 0 already used, 3 new questions
+Stein’s, Richmond: 3 images total, 0 already used, 3 new questions
+The Albany, Thames Ditton: 8 images total, 0 already used, 8 new questions
+The Anglers, Teddington: 6 images total, 1 already used, 5 new questions
+The Barmy Arms, Twickenham: 5 images total, 1 already used, 4 new questions
+The Bishop, Kingston: 4 images total, 0 already used, 4 new questions
+The Boaters Inn, Kingston: 4 images total, 0 already used, 4 new questions
+The Gazebo, Kingston: 4 images total, 0 already used, 4 new questions
+The London Apprentice, Isleworth: 4 images total, 0 already used, 4 new questions
+The Mitre Hotel, Hampton Court: 3 images total, 1 already used, 2 new questions
+The Ram, Kingston: 3 images total, 0 already used, 3 new questions
+The Town Wharf, Isleworth: 7 images total, 0 already used, 7 new questions
+The Wharf, Teddington: 3 images total, 0 already used, 3 new questions
+The White Cross Hotel, Richmond: 3 images total, 1 already used, 2 new questions
+The White Swan, Twickenham: 4 images total, 0 already used, 4 new questions
+Woody's, Kingston: 5 images total, 0 already used, 5 new questions
+Ye Olde Swan, Thames Ditton: 3 images total, 0 already used, 3 new questions
+Albany Reach, Thames Ditton: 5 images total, 0 already used, 5 new questions
+Broom Water, Teddington: 4 images total, 0 already used, 4 new questions
+Buccleuch Gardens, Richmond: 10 images total, 0 already used, 10 new questions
+Cambridge Park, Twickenham: 4 images total, 0 already used, 4 new questions
+Canbury Gardens, Kingston: 7 images total, 0 already used, 7 new questions
+Champions Wharf, Twickenham: 6 images total, 0 already used, 6 new questions
+Church Street, Isleworth: 3 images total, 0 already used, 3 new questions
+Cigarette Island Park: 2 images total, 0 already used, 2 new questions
+Diamond Jubilee Gardens, Twickenham: 5 images total, 0 already used, 5 new questions
+Duke of Northumberland's River: 7 images total, 0 already used, 7 new questions
+Embankment, Twickenham: 6 images total, 0 already used, 6 new questions
+Ferry Road, Teddington: 4 images total, 0 already used, 4 new questions
+Ham House: 5 images total, 0 already used, 5 new questions
+Ham Lands, Ham: 9 images total, 0 already used, 9 new questions
+Hammerton's Pier: 8 images total, 0 already used, 8 new questions
+Hampton Court Palace / Barge Walk: 6 images total, 0 already used, 6 new questions
+High St, Kingston: 5 images total, 0 already used, 5 new questions
+Hogsmill River: 8 images total, 0 already used, 8 new questions
+Home Park / Barge Walk: 7 images total, 0 already used, 7 new questions
+Kingston Turk’s Pier: 5 images total, 0 already used, 5 new questions
+Lion Wharf Road: 6 images total, 0 already used, 6 new questions
+Lower Ham Road, Kingston: 7 images total, 0 already used, 7 new questions
+Mallard Place Pontoon, Twickenham: 3 images total, 0 already used, 3 new questions
+Manor Road Rec Ground, Teddington: 5 images total, 0 already used, 5 new questions
+Marble Hill House & Park: 3 images total, 0 already used, 3 new questions
+Old Deer Park, Richmond: 4 images total, 0 already used, 4 new questions
+Old Palace Lane, Richmond: 4 images total, 0 already used, 4 new questions
+Orleans Gardens, Twickenham: 6 images total, 0 already used, 6 new questions
+Orleans Road, Twickenham: 6 images total, 0 already used, 6 new questions
+Petersham Meadows: 6 images total, 0 already used, 6 new questions
+PLA Marker Stone: 1 images total, 0 already used, 1 new questions
+Portsmouth Rd, Surbiton: 3 images total, 0 already used, 3 new questions
+Queen’s Promenade, Surbiton: 4 images total, 0 already used, 4 new questions
+Radnor Gardens, Twickenham: 6 images total, 0 already used, 6 new questions
+Radnor House School, Twickenham: 4 images total, 0 already used, 4 new questions
+Ranelagh Drive: 6 images total, 0 already used, 6 new questions
+Richmond Landing Stage Pier: 4 images total, 0 already used, 4 new questions
+River Crane: 3 images total, 0 already used, 3 new questions
+River Lane, Petersham: 4 images total, 0 already used, 4 new questions
+River Mole / Ember: 6 images total, 0 already used, 6 new questions
+Riverbank, East Molesey: 7 images total, 0 already used, 7 new questions
+Riverside, Twickenham: 6 images total, 0 already used, 6 new questions
+St Helena Pier, Richmond: 5 images total, 0 already used, 5 new questions
+St Mary’s Church, Twickenham: 5 images total, 0 already used, 5 new questions
+Thames Ditton Marina: 7 images total, 0 already used, 7 new questions
+Thames Eyot, Twickenham: 3 images total, 0 already used, 3 new questions
+Thames Side, Kingston: 4 images total, 0 already used, 4 new questions
+The Rec, Teddington: 3 images total, 0 already used, 3 new questions
+River Rythe, Thames Ditton: 5 images total, 0 already used, 5 new questions
+Thistleworth Marine: 6 images total, 0 already used, 6 new questions
+Town End Pier: 9 images total, 0 already used, 9 new questions
+Water Lane, Richmond: 7 images total, 0 already used, 7 new questions
+Water Lane, Twickenham: 5 images total, 0 already used, 5 new questions
+York House Gardens, Twickenham: 7 images total, 0 already used, 7 new questions
+Ajax Sea Scouts, Thames Ditton: 8 images total, 0 already used, 8 new questions
+Albany Park Canoe & Sailing Centre: 5 images total, 1 already used, 4 new questions
+BMYC, Thames Ditton: 7 images total, 0 already used, 7 new questions
+Dittons Skiff & Punting Club: 6 images total, 0 already used, 6 new questions
+Go Boat, Kingston: 2 images total, 0 already used, 2 new questions
+Harts Boatyard Boat Rental: 5 images total, 0 already used, 5 new questions
+Kingston Grammar School BC: 12 images total, 0 already used, 12 new questions
+Kingston Rowing Club: 5 images total, 0 already used, 5 new questions
+Kingston Royals Dragon Boat Club: 1 images total, 0 already used, 1 new questions
+London River Yacht Club, Surbiton: 3 images total, 0 already used, 3 new questions
+Minima Yacht Club, Kingston: 8 images total, 0 already used, 8 new questions
+Richmond Bridge Boat Club: 4 images total, 0 already used, 4 new questions
+Richmond Canoe Club: 4 images total, 0 already used, 4 new questions
+Richmond YC, Eel Pie Island: 3 images total, 0 already used, 3 new questions
+Royal Canoe Club & Walbrook RC: 6 images total, 0 already used, 6 new questions
+Small Boat Club: 3 images total, 0 already used, 3 new questions
+Steadfast Sea Cadets, Kingston: 4 images total, 0 already used, 4 new questions
+Surbiton High School BC, Teddington: 3 images total, 0 already used, 3 new questions
+Tamesis Sailing Club, Teddington: 6 images total, 0 already used, 6 new questions
+Thames Ditton Marina: 7 images total, 0 already used, 7 new questions
+Thames Motor Yacht Club: 4 images total, 0 already used, 4 new questions
+Thames Sailing Club, Surbiton: 5 images total, 0 already used, 5 new questions
+Thames Young Mariners, Ham: 3 images total, 0 already used, 3 new questions
+The Lensbury: 4 images total, 0 already used, 4 new questions
+Twickenham RC, Eel Pie Island: 3 images total, 0 already used, 3 new questions
+Twickenham Sea Cadets, Teddington: 4 images total, 0 already used, 4 new questions
+Twickenham YC, Twickenham: 3 images total, 0 already used, 3 new questions
+Walbrook Rowing Club: 5 images total, 0 already used, 5 new questions
+YMCA Hawker Club, Kingston: 3 images total, 0 already used, 3 new questions
