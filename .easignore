@@ -1,0 +1,31 @@
+# EAS Build ignore file
+# NOTE: .easignore replaces .gitignore for EAS uploads (not additive)
+
+# Source/raw images (1.8GB total - not needed in build)
+RNLI Local Knowledge images/
+RNLI Local Knowledge images anonymised/
+
+# Dev/build tooling
+scripts/
+__tests__/
+coverage/
+store_assets/
+
+# Git
+.git/
+
+# Standard ignores (from .gitignore)
+node_modules/
+.expo/
+dist/
+web-build/
+.DS_Store
+expo-env.d.ts
+
+# Credentials
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
