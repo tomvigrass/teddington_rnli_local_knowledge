@@ -55,3 +55,30 @@ export function getCategories(hiddenIds?: string[]): CategoryInfo[] {
 export function getQuestionCount(hiddenIds?: string[]): number {
   return filterHidden(questions, hiddenIds).length;
 }
+
+export interface CategoryStats extends CategoryInfo {
+  photoCount: number;
+}
+
+export function getCategoryStats(hiddenIds?: string[]): CategoryStats[] {
+  return categoriesData.categories.map((cat) => {
+    const catQuestions = filterHidden(
+      questions.filter((q) => q.category === cat.questionCategory),
+      hiddenIds
+    );
+    const photoCount = new Set(
+      catQuestions.map((q) => q.imageRef).filter(Boolean)
+    ).size;
+    return {
+      ...cat,
+      questionCategory: cat.questionCategory as QuestionCategory,
+      questionCount: catQuestions.length,
+      photoCount,
+    };
+  });
+}
+
+export function getTotalPhotoCount(hiddenIds?: string[]): number {
+  const visible = filterHidden(questions, hiddenIds);
+  return new Set(visible.map((q) => q.imageRef).filter(Boolean)).size;
+}

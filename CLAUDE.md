@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-React Native (Expo SDK 54) app that helps RNLI crew members study for local knowledge exams at Teddington Lifeboat Station. Features quiz modes (quick test, custom test, endless) with 121 multiple-choice questions covering Thames geography, locks, warning systems, and hazards. Pass threshold is 90%.
+React Native (Expo SDK 54) app that helps RNLI crew members study for local knowledge exams at Teddington Lifeboat Station. Features quiz modes (quick test, custom test, endless) with multiple-choice questions covering Thames geography, locks, warning systems, and hazards. Pass threshold is 90%.
 
 ## Commands
 

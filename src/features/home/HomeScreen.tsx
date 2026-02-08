@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Image } from 'expo-image';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { SafeScreen } from '../../components/SafeScreen';
 import { ConfirmationModal } from '../../components/ConfirmationModal';
 import { ModeCard } from './components/ModeCard';
 import { LastScoreBadge } from './components/LastScoreBadge';
+import { StatsBadge } from './components/StatsBadge';
+import { StatsModal } from './components/StatsModal';
 import { useStatsStore } from '../../stores/useStatsStore';
 import { useTestStore } from '../../stores/useTestStore';
 import { useHiddenQuestionsStore } from '../../stores/useHiddenQuestionsStore';
 import { generateQuickTest } from '../../services/TestGeneratorService';
+import { getQuestionCount, getTotalPhotoCount } from '../../services/QuestionService';
 import { colors } from '../../core/constants/colors';
 import { typography } from '../../core/constants/typography';
 import { spacing } from '../../core/constants/spacing';
@@ -24,6 +28,9 @@ export function HomeScreen() {
   const hiddenIds = useHiddenQuestionsStore((s) => s.hiddenIds);
   const unhideAll = useHiddenQuestionsStore((s) => s.unhideAll);
   const [showResetModal, setShowResetModal] = useState(false);
+  const [showStatsModal, setShowStatsModal] = useState(false);
+  const totalQuestions = getQuestionCount();
+  const totalPhotos = getTotalPhotoCount();
 
   const handleQuickTest = () => {
     const questions = generateQuickTest(hiddenIds);
@@ -52,19 +59,19 @@ export function HomeScreen() {
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.header}>
-          <Text style={styles.word}>
-            <Text style={styles.initial}>R</Text>apid
-          </Text>
-          <Text style={styles.word}>
-            <Text style={styles.initial}>N</Text>avigation
-          </Text>
-          <Text style={styles.word}>
-            <Text style={styles.initial}>L</Text>earning
-          </Text>
-          <Text style={styles.word}>
-            <Text style={styles.initial}>I</Text>nterface
-          </Text>
-          <Text style={styles.subtitle}>Teddington Local Knowledge Exam</Text>
+          <View style={styles.headerLeft}>
+            <Image
+              source={require('../../../assets/images/header-icon.png')}
+              style={styles.headerIcon}
+              contentFit="contain"
+            />
+            <Text style={styles.subtitle}>Teddington Local Knowledge Exam</Text>
+          </View>
+          <StatsBadge
+            questionCount={totalQuestions}
+            photoCount={totalPhotos}
+            onPress={() => setShowStatsModal(true)}
+          />
         </View>
 
         <View style={styles.modes}>
@@ -118,6 +125,8 @@ export function HomeScreen() {
         )}
       </ScrollView>
 
+      <StatsModal visible={showStatsModal} onClose={() => setShowStatsModal(false)} />
+
       <ConfirmationModal
         visible={showResetModal}
         title="Reset Hidden Questions & Stats?"
@@ -137,17 +146,18 @@ const styles = StyleSheet.create({
     paddingTop: spacing.xl,
   },
   header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
     marginBottom: spacing.xl,
   },
-  word: {
-    fontSize: 28,
-    fontWeight: '400',
-    color: colors.textSecondary,
+  headerLeft: {
+    flex: 1,
   },
-  initial: {
-    fontSize: 28,
-    fontWeight: '700',
-    color: colors.brandBlue,
+  headerIcon: {
+    width: 88,
+    height: 88,
+    marginTop: -22,
   },
   subtitle: {
     ...typography.caption,
