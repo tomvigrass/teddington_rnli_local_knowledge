@@ -121,8 +121,9 @@ const styles = StyleSheet.create({
   count: {
     ...typography.small,
     color: colors.textSecondary,
-    width: 32,
+    minWidth: 40,
     textAlign: 'right',
+    marginLeft: spacing.xs,
   },
   closeButton: {
     backgroundColor: colors.background,

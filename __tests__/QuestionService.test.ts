@@ -78,9 +78,9 @@ describe('QuestionService', () => {
   });
 
   describe('getCategories', () => {
-    it('returns all 10 categories', () => {
+    it('returns all 11 categories', () => {
       const cats = getCategories();
-      expect(cats).toHaveLength(10);
+      expect(cats).toHaveLength(11);
     });
 
     it('each category has a questionCount', () => {

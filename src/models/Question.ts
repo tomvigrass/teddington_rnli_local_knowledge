@@ -17,6 +17,7 @@ export enum QuestionCategory {
   PLAWarnings = 'plaWarnings',
   EnvironmentAgencyWarnings = 'environmentAgencyWarnings',
   Hazards = 'hazards',
+  Locks = 'locks',
 }
 
 export enum Difficulty {

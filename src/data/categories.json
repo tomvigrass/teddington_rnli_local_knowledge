@@ -79,6 +79,14 @@
       "description": "Know fog-prone areas, weir dangers and safety considerations",
       "color": "#8E8E93",
       "questionCategory": "hazards"
+    },
+    {
+      "id": "cat_011",
+      "name": "Locks (General)",
+      "icon": "lock-keyhole",
+      "description": "Identify locks and weirs in the area including Molesey, Richmond and Teddington",
+      "color": "#30B0C7",
+      "questionCategory": "locks"
     }
   ]
 }
