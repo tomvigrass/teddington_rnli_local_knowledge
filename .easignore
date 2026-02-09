@@ -2,8 +2,8 @@
 # NOTE: .easignore replaces .gitignore for EAS uploads (not additive)
 
 # Source/raw images (1.8GB total - not needed in build)
-RNLI Local Knowledge images/
-RNLI Local Knowledge images anonymised/
+local_knowledge_jpg_imgs/
+local_knowledge_jpg_imgs_anonymised/
 
 # Dev/build tooling
 scripts/

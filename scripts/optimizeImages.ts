@@ -12,7 +12,7 @@ import sharp from 'sharp';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SOURCE_DIR = path.resolve(__dirname, '../RNLI Local Knowledge images anonymised');
+const SOURCE_DIR = path.resolve(__dirname, '../local_knowledge_jpg_imgs_anonymised');
 const OUTPUT_DIR = path.resolve(__dirname, '../assets/images');
 const MAX_WIDTH = 1200;
 const WEBP_QUALITY = 75;

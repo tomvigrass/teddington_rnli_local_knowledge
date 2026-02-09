@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // ─── Paths ──────────────────────────────────────────────────────────────────
-const SOURCE_DIR = path.resolve(__dirname, '../RNLI Local Knowledge images');
+const SOURCE_DIR = path.resolve(__dirname, '../local_knowledge_jpg_imgs');
 const EXISTING_QUESTIONS_PATH = path.resolve(__dirname, '../src/data/questions.json');
 const LOP_TEXT_PATH = path.resolve(__dirname, 'data/lop-extracted.txt');
 const OUTPUT_PATH = path.resolve(__dirname, 'output/generated-questions.json');
