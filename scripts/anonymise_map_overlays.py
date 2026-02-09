@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Batch anonymise Google Maps-style UI overlays in images.
+Batch anonymise UI overlays in images.
 
 Pipeline:
   1) Detect near-white rectangular UI boxes via CV (no fixed coordinates).
